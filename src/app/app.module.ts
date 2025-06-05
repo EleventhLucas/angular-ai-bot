@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChatBotComponent } from './components/chat-bot/chat-bot';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChatBotComponent
   ],
   imports: [
     BrowserModule,
